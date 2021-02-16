@@ -1,0 +1,23 @@
+Time to try implementing something based on thousand brains.
+
+1) each weak learner should have different though possibly overlapping information similar to RandomForest
+2) there should be sparse coupling between learners
+3) coupling should be recurrent
+
+Initialize K trees
+Initialize K random vectors theta_i
+Connect each tree to all other trees with probability p
+
+For tree in forest
+    append 0s to X, one for each connected tree
+
+For i = 1:T
+    for tree in forest
+        tree.fit(X,y,theta)
+    for tree in forest
+        X[tail] =  outputs of adjacent
+
+
+
+    
+
