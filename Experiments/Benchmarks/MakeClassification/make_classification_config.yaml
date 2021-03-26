@@ -1,0 +1,20 @@
+# Experiment parameters
+experiment_name: "no_connections"
+n_features: 100
+n_samples: 5_000
+n_runs: 50
+
+# RecurrentForest Params
+T: 1
+n_trees: 100
+p_connect: 0
+p_feature: .4
+p_example: .3
+tree_kwargs: # {"max_depth": 5}
+
+# Params for RandomForest
+random_forest_kwargs: {n_estimators: 100}#,
+                      #  max_depth: 5}
+
+# Params for AdaBoost
+ada_boost_kwargs: {n_estimators: 100}

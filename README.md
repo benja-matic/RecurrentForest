@@ -16,5 +16,6 @@ tree.X <- tree.X UNION predictions from other trees this tree is coupled to
 
 So the algoritihm basically trains each tree, updates features, and repeats.
     
-Preliminarily I tested this approach on 20 randomly generated classification problems and it peformed somewhere in between randomforest and adaboost in terms of accuracy. There is probably a theoretical reason that my model is just doing the same thing as RandomForest asymptotically, but the idea here was to code something up inspired by neuroscience.     
-    
+Preliminarily, it appears the algorithm can get high test set accuracy on toy problems (same ballpark as RandomForest or AdaBoost), but the results appear to depend heavily on parameters like n_trees. Investigation ongoing...
+
+A fun idea going forward would be to learn a useful coupling between trees based on some kind of plasticity rule. 

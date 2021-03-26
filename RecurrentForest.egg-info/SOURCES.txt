@@ -1,0 +1,6 @@
+README.md
+setup.py
+RecurrentForest.egg-info/PKG-INFO
+RecurrentForest.egg-info/SOURCES.txt
+RecurrentForest.egg-info/dependency_links.txt
+RecurrentForest.egg-info/top_level.txt
